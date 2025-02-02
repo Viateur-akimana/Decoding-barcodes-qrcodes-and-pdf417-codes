@@ -2,7 +2,7 @@ from pylibdmtx.pylibdmtx import decode
 import cv2
 
 
-image = cv2.imread("barcode.jpg", cv2.IMREAD_GRAYSCALE) 
+image = cv2.imread("data-matrix.jpg", cv2.IMREAD_GRAYSCALE) 
 
 
 decoded_objects = decode(image, timeout=500)
